@@ -14,13 +14,9 @@ public class JsonSerializer : MonoBehaviour
     void Start()
     {
         filePath = Path.Combine(Application.dataPath, "saveData.txt");
-        //dataObj = new DataClass();
-        //dataObj.level = 1;
-        //dataObj.timeElapsed = 44443.232323f;
-        //dataObj.name = "Jordan";
+
         string json = JsonUtility.ToJson(dataObj);
         Debug.Log(json);
-        //StartCoroutine(SendWebData(json));
         File.WriteAllText(filePath, json);
     }
 
@@ -95,11 +91,6 @@ public class JsonSerializer : MonoBehaviour
                 Debug.Log(newGetRoot.playerdata[i].timeElapsed);
 
             }
-
-
-            //Debug.Log(newGetRequestData.name);
-            //Debug.Log(newGetRequestData.level);
-            //Debug.Log(newGetRequestData.timeElapsed);
         }
     }
 }
