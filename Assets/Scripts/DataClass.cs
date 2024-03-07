@@ -3,7 +3,10 @@ using System;
 public class DataClass
 {
     // Variables
-    public int level;
-    public float timeElapsed;
-    public string name;
+    public string _id;
+    public string screenName;
+    public string firstName;
+    public string lastName;
+    public int date;
+    public int score;
 }

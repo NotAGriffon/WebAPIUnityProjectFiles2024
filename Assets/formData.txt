@@ -1,1 +1,1 @@
-{"level":1,"timeElapsed":8.0,"name":"Hayden"}
+{"_id":"65ea1c364a2372589ed345bb","screenName":"","firstName":"","lastName":"","date":0,"score":0}
